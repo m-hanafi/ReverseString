@@ -15,7 +15,7 @@ namespace ReverseString
                 res = Console.ReadLine();
                 if (res!=""){
                     //Using Reverse method
-                    //Console.WriteLine($"Reverse: {Reverse(res)}");
+                    Console.WriteLine($"Reverse: {Reverse(res)}");
 
                     // //Without Reverse method
                     Console.WriteLine($"Reverse: {Reverse_2(res)}");
