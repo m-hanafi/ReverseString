@@ -7,13 +7,12 @@ namespace ReverseString
     {
         static void Main(string[] args)
         {
-            string res = "";
-
+            string? res = "";
             do
             {
                 Console.WriteLine("Enter text:");
                 res = Console.ReadLine();
-                if (res!=""){
+                if (res!="" && res != null){
                     //Using Reverse method
                     Console.WriteLine($"Reverse: {Reverse(res)}");
 
