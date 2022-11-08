@@ -44,9 +44,7 @@ namespace ReverseString
             {
                 rev = rev + c_x [i];
             }
-
             return rev;
-
         }
     }
 }
